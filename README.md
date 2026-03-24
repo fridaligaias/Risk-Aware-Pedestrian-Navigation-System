@@ -66,8 +66,9 @@ $$g(n) = \text{Distance} + (\text{Risk Score} \times \alpha)$$
 * **$\alpha$ (Alpha):** A user-controlled parameter (0–100) used to trade efficiency for safety.
 * **Risk Score:** The aggregated severity weight of all crimes associated with that node.
 
-#### Heuristic ($h(n)$)
+#### Heuristic 
 The straight-line "best first" estimate to the goal is calculated using the Haversine/Geodesic formula to ensure the search remains admissible:
+
 $$h(n) = \text{geodesic distance}(n, \text{goal})$$
 
 ---
@@ -81,11 +82,6 @@ The system was verified through rigorous comparative testing to ensure both math
 
 ---
 
-## 🌍 Ethics & Sustainability
-* **Green AI:** SafeWalk utilizes a deterministic A* search, which is far more energy-efficient than training high-performance Neural Networks, resulting in a lower carbon footprint.
-* **EDI (Equity, Diversity, & Inclusion):** The model acknowledges **algorithmic bias**, noting that police data reflects *reported* crime and policing intensity rather than objective safety. SafeWalk aims to empower vulnerable groups while remaining transparent about these data limitations.
-
----
 
 ## Context
 * **Institution:** University of Westminster
